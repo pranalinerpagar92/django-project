@@ -16,6 +16,7 @@ class Company(models.Model):
     active = models.BooleanField(default=True)
 
     def __str__(self):
+        print("hello i am Django project")
         return self.name + '--' + self.location
 
 
